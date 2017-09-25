@@ -1,34 +1,24 @@
-# Bef is a responsive jekyll theme
+##说明
 
-Bef - Blog Enjoy Freedom is a responsive jekyll theme which created to be simple and freedom.
+2016-02-29  更新 _config.yml 可用
 
-## Demo
+此博客 fork 自 [Azeril](http://azeril.me/)，感谢。
 
-Check the theme in action [Demo](https://artemsheludko.github.io/bef/)
+##读立写生
 
-The main page would look like this:
+我是陈素封，博客：[cnfeat.com](cnfeat.com)
 
-![Main page preview](https://github.com/artemsheludko/bef/blob/master/assets/img/bef_main_page.jpg?raw=true)
+每天千字践行者，践行时间：2014年02月10日至2014年02月23日，感谢这段经历，让我成为了现在的我。
 
-The post page would look like this:
+现在研习 **认知写作学** 。
 
-![Post page preview](https://github.com/artemsheludko/bef/blob/master/assets/img/bef_post.jpg?raw=true)
+##坚信
 
-## Features
 
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Vide](http://vodkabears.github.io/vide/)
-- [Disqus](https://disqus.com/)
-- [MailChimp](https://mailchimp.com/)
-- [Formspree!](https://formspree.io/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Share Buttons, Recent Post, Section Author, Contact and more...
+- 元认知乃一切之源
+- 学苟知本，六经皆我注脚 
+- 一切技能皆可习得，包括写作
+- 「持续」并不是坚持，写就是最好的回报
 
-## Installation:
 
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-### License
-
-GNU General Public License v3.0
