@@ -1,63 +1,39 @@
-# Site settings
-title: 读立写生
-header-img: "img/green.jpg"
-tagline: "cn"  
-description: "陈素封|读而立·写而生"  
-baseurl: ""
-url: "http://cnfeat"  
+# Jekyll configuration
 
-# About/contact
-owner: 
-  name: " CnFeat"
-  email: CnFeat@gmail.com
-  bio: "写就是写的报酬"
+name: My blog
+description: A jekyll theme
 
-# Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
-favicon: img/favicon.png
+# url is currently only used only for the RSS feed in feed.xml
+url: https://scotte.github.io/jekyll-clean
 
-douban_username:  
-twitter_username: 
-github_username: 
-facebook_username: 
-weibo_username: 
-zhihu_username: 
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+baseurl: /jekyll-clean
 
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
-markdown: kramdown
+# This can be '' to hide the Github nav button
+github: 'scotte/jekyll-clean'
+
+# Set this to your UA-# value, or '' to disable the block completely
+gaaccount: ''
+
+# The 'comments' setting enables comments. You'll need to select either
+# disqus or isso below to choose a comment system. Individual posts can
+# override 'comments' to disable on a post-by-post basis.
+comments: true
+
+# Set this to your public isso URL to enable comments via isso. Set to '' to disable isso.
+isso: ''
+
+# Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
+disqus: ''
+
+permalink: /:year/:month/:title
+paginate: 3
+
 highlighter: rouge
-permalink: pretty
-paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+markdown: kramdown
+gems: ['jekyll-paginate']
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
-
-# Defaults for posts
-defaults:
-  -
-    scope: 
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "CnFeat"
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
-
-# Comments 
-comments :
-  provider : duoshuo
-  duoshuo :
-    short_name : 
-  disqus :
-      short_name : 
-
-# Analytics and webmaster tools stuff goes here
-google_analytics: 
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in footer navigation
+exclude: ['README.md', 'LICENSE']
