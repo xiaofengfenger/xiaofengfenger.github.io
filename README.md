@@ -1,32 +1,22 @@
-# Adam Blog is a minimal clear theme for Jekyll
+# Autm-rb
 
-![Adam Blog - Imac](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-blog-imac.jpg?raw=true)
+Another theme for jekyll.
 
-## Demo
+## [DEMO][demo]
 
-Check the theme in action [Demo](https://artemsheludko.github.io/adam-blog/)
+## Customization
 
-The main page would look like this:
+Edit **_config.yml** and files inside **_data/** before using
 
-![Main page preview](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-home-page.jpg?raw=true)
+## Screens
 
-The post page would look like this:
+![](screenshots/home.png)
+![](screenshots/post.png)
 
-![Post page preview](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-post-example.jpg?raw=true)
+## Licensing
 
-## Features
+[MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE)
 
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [MailChimp](https://mailchimp.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- [Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-
-## Installation:
-
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
-
-### License
-
-GNU General Public License v3.0
+[pages]: http://pages.github.com
+[fork]: https://github.com/railsr/autm-rb/fork
+[demo]: http://kirqe.github.io/autm-rb/

@@ -1,21 +1,9 @@
 ---
-layout: home-page
+layout: welcome
+welcome_img: "https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/e15/11208586_1596699727213864_1958685864_n.jpg"
 ---
-<ol class="post-card-box clearfix">
-  {% for post in paginator.posts %}
-  <li>
-    <div class="post-card">
-      <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
-      </a>
 
-      <div class="post-card-body">
-        {% for tag in post.tags %}
-        <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>
-        {% endfor %}
-        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"><h3 class="post-card-title">{{post.title}}</h3></a>
-      </div>
-
-    </div>
-  </li>
-  {% endfor %}
-</ol>
+<div class="text-center">
+  <img class="circular" src="{{page.welcome_img}}" >
+  <p>contact me <a href="mailto:{{site.email.address}}">{{site.email.text}}</a></p>
+</div>
