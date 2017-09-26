@@ -2,7 +2,8 @@
 layout: page
 title: 关于我
 ---
-
+([简历](http://xiaofengfenger.github.io\resume.pdf))
+<p>
 马上毕业的大学生，喜欢各种捣鼓。
 <p>
 喜欢音乐，游戏  平时上上网，管理一下博客。
