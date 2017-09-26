@@ -17,6 +17,8 @@ title: 关于我
 <p>
 <p>
 
-
-
 感谢博客模板原作者<a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>leopardpan</a>
+
+{% include new-old.html %}
+
+                                             ————如果你喜欢我的博客，可以请我喝咖啡哦  QAQ！
