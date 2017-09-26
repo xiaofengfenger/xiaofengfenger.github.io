@@ -15,7 +15,7 @@ url: "http://xiaofengfenger.github.io"
 
 # Social
 social:
-    #weibo: 5366874726
+    weibo: 3914743759
     github: xiaofengfenger
     # twitter:
     mail: yxf1535051477@163.com
@@ -55,7 +55,7 @@ nav:
     - {title: 关于我, description: about, url: '/about'}
 
 
-# Pagination
+# Pagination  页码
 gems: [jekyll-paginate,jekyll-sitemap]
 paginate: 20
 paginate_path: "page/:num/"
