@@ -8,7 +8,7 @@ tag: JavaScript
 您只能在 HTML 输出流中使用 document.write。 如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。  
 关于上面这一句话的理解，有下面一个例子说明  
 
-><!DOCTYPE html>
+{{{<!DOCTYPE html>
  <html>
    <head>
     <meta charset="UTF-8">
@@ -27,14 +27,14 @@ tag: JavaScript
   </p>
 <button onclick="myFunction()">点击这里</button>
 
->   <script>
+   <script>
    function myFunction()
   {
    document.write("调用了函数，文档被重写");
    }
    </script>
 </body>
-</html>
+</html>}}}
 
  例子中代码执行到document.write就向页面写入，文档加载完成，但未调用函数，所以不会执行函数中的document.write，当点击按钮，触发了事件，则是在文档加载完成后使用的document.write，则会覆盖页面中原有信息。  
  用javascript编写的代码只能通过html/xhtml文档才能执行，代码一行一行解析，文档在加载的过程中实际是一边加载一边用document.write写出内容到屏幕上，而加载完成后，document就关闭。如果再调用document.write往网页上写内容的话，就会重写document。

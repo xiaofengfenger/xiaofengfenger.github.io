@@ -30,3 +30,5 @@ DNS，简单地说，就是Domain Name System，翻成中文就是“域名系�
  #ifndef A_H意思是"if not define a.h"  如果不存在a.h  
  接着的语句应该#define A_H  就引入a.h  
  最后一句应该写#endif   否则不需要引入  
+
+ 本篇文章会不断更新后续的问题...
