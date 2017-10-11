@@ -7,7 +7,7 @@ tag: 面试
 ### 指针和引用的区别
 指针是一个变量，只不过这个变量存储的是一个地址，指向内存的一个存储单元,而引用跟原来的变量实质上是同一个东西，只不过是原变量的一个别名而已  
 `int a=1;int *p=&a;  
-int a=1;int &b=a;`
+int a=1;int &b=a;`  
 上面定义了一个整形变量和一个指针变量p，该指针变量指向a的存储单元，即p的值是a存储单元的地址。  
 而下面2句定义了一个整形变量a和这个整形a的引用b，事实上a和b是同一个东西，在内存占有同一个存储单元。  
 (2)可以有const指针，但是没有const引用；  
@@ -27,6 +27,6 @@ DNS，简单地说，就是Domain Name System，翻成中文就是“域名系�
 比如：存在a.h文件#include "c.h"而此时b.cpp文件导入了#include "a.h" 和#include "c.h"此时就会造成c.h重复引用。  
 下面给一个#ifndef/#define/#endif的格式：  
 
- #ifndef A_H意思是"if not define a.h"  如果不存在a.h
- 接着的语句应该#define A_H  就引入a.h
- 最后一句应该写#endif   否则不需要引入
+ #ifndef A_H意思是"if not define a.h"  如果不存在a.h  
+ 接着的语句应该#define A_H  就引入a.h  
+ 最后一句应该写#endif   否则不需要引入  

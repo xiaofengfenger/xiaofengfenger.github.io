@@ -8,43 +8,39 @@ tag: JavaScript
 您只能在 HTML 输出流中使用 document.write。 如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。  
 关于上面这一句话的理解，有下面一个例子说明  
 
- `<!DOCTYPE html>
+><!DOCTYPE html>
  <html>
    <head>
     <meta charset="UTF-8">
    </head>
  <body>
-
-  <p>
+<p>
     JavaScript 能够直接写入 HTML 输出流中：
   </p>
   <script>
    document.write("<h1>This is a heading</h1>");
    document.write("<p>This is a paragraph.</p>");
   </script>
-
- <p>
+<p>
    您只能在 HTML 输出流中使用 <strong>document.write</strong>。
    如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。
   </p>
+<button onclick="myFunction()">点击这里</button>
 
-  <button onclick="myFunction()">点击这里</button>
-
-   <script>
+>   <script>
    function myFunction()
   {
    document.write("调用了函数，文档被重写");
    }
    </script>
-
- </body>
- </html>`
+</body>
+</html>
 
  例子中代码执行到document.write就向页面写入，文档加载完成，但未调用函数，所以不会执行函数中的document.write，当点击按钮，触发了事件，则是在文档加载完成后使用的document.write，则会覆盖页面中原有信息。  
  用javascript编写的代码只能通过html/xhtml文档才能执行，代码一行一行解析，文档在加载的过程中实际是一边加载一边用document.write写出内容到屏幕上，而加载完成后，document就关闭。如果再调用document.write往网页上写内容的话，就会重写document。
 
 ## 对事件做出响应
-`<button type="button" onclick="alert('Welcome!')">点击这里</button>`
+`<button type="button" onclick="alert('Welcome!')">点击这里</button>`  
 alert()函数用来显示一个提示框，对于代码测试很有用。
 
 ## 改变html内容
@@ -52,7 +48,7 @@ alert()函数用来显示一个提示框，对于代码测试很有用。
  x.innerHTML="hello JavaScript";`
 
 JavaScript 的函数是在head部分里写好的  
-.match（）函数是用来判断元素的某一个属性是否和括号内的部分匹配，如：  
+.match（）函数是用来判断元素的某一个属性是否和括号内的部分匹配，如:    
 `element=document.getElementById('myimage')；
-element.src.match(abc)`
+element.src.match(abc)`  
 上述代码用来判断名字叫“myimage”的元素的src属性是否含有abc这个字符串  
