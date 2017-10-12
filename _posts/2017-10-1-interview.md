@@ -57,11 +57,11 @@ http://wx2.sinaimg.cn/small/e9563fcfly1fkf8s6z3z8j206m076glg.jpg
 
 递归实现(以前序遍历为例，其他的只是输出的位置（printf函数的位置）稍有不同)  
     void preorder(bintree t){  
-        if(t){  
-            printf("%c ",t->data);  
-            preorder(t->lchild);  
-            preorder(t->rchild);  
-        }  
+            if(t){  
+                printf("%c ",t->data);  
+                preorder(t->lchild);  
+                preorder(t->rchild);  
+            }  
     }
 
 
