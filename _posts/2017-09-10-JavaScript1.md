@@ -2,7 +2,7 @@
 layout: post
 title: JavaScript进阶之路1
 description: JavaScript 是因特网上最流行的脚本语言。
-tag: JavaScript
+tag: 学习
 ---
 
 您只能在 HTML 输出流中使用 document.write。 如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。  
