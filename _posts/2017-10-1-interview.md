@@ -38,7 +38,7 @@ DNS，简单地说，就是Domain Name System，翻成中文就是“域名系�
 中序遍历：左子树->根节点->右子树  
 后序遍历：左子树->右子树->根节点  
 
-http://wx2.sinaimg.cn/small/e9563fcfly1fkf8s6z3z8j206m076glg.jpg  
+！[我是图片](http://wx2.sinaimg.cn/small/e9563fcfly1fkf8s6z3z8j206m076glg.jpg) 
 
 前序遍历：abdefgc  
 中序遍历：debgfac  
